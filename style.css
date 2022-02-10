@@ -1,0 +1,21 @@
+/* Comment goes here */
+html{
+    background-color: cyan;
+    font-family: Arial;
+}
+b ul ol{
+    font-size: 12px;
+}
+p{
+
+}
+aside{
+    width: 70%;
+    float: right;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
