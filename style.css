@@ -19,7 +19,9 @@ aside{
     margin-right: auto;
     width: 15%;
 }
-
+.aside-left{
+    float: left;
+}
 .img-buttons {
     border-radius: 60%;
     width: 60px;
