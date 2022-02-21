@@ -19,3 +19,9 @@ aside{
     margin-right: auto;
     width: 15%;
 }
+
+.img-buttons {
+    border-radius: 60%;
+    width: 60px;
+    height: 60px;
+  }
