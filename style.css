@@ -1,8 +1,9 @@
 /* Comment goes here */
 html{
-    background-color: cyan;
     font-family: Arial;
+    background-image: linear-gradient(to bottom right, cyan, rgb(0, 153, 255));
 }
+
 b ul ol{
     font-size: 12px;
 }
