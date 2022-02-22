@@ -3,12 +3,8 @@ html{
     font-family: Arial;
     background-image: linear-gradient(to bottom right, cyan, rgb(0, 153, 255));
 }
-
 b ul ol{
     font-size: 12px;
-}
-p{
-
 }
 aside{
     width: 60%;
@@ -25,6 +21,6 @@ aside{
 }
 .img-buttons {
     border-radius: 60%;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
   }
