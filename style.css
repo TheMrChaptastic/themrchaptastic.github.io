@@ -27,3 +27,16 @@ aside{
 .codewars{
     width: 350px;
 }
+.gifs{
+    width: 25%;
+}
+@media screen and (min-width: 768px) {
+    .gifs{
+        width: 55%;
+    }
+}
+@media screen and (min-width: 600px) {
+    .gifs{
+        width: 65%;
+    }
+}
