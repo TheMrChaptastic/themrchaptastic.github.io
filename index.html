@@ -7,22 +7,26 @@
 	</head>
 
 	<body style="padding: 20px">
+		<div>
+			<ul style="padding: 0px">
+				<li><a>TheMrChaptastic</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#demos">Demos</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
 		<header align="center" style="padding-top: 20px">
 			<h1>Christopher "Chappy" Bunn</h1>
 			<h1>.Net Developer</h1>
 		</header>
 
-		<nav align="center"><strong>
-			<a href = "mailto: chappybunn@outlook.com"><image src="images/email.png" title="Email" class="img-buttons"></image></a>
-			<a href="https://www.linkedin.com/in/ccbunn/"><image src="images/linkedin.png" title="LinkedIn" class="img-buttons"></image></a>
-			<a href="https://github.com/TheMrChaptastic"><image src="images/github.png" title="GitHub" class="img-buttons"></image></a>
-		</strong></nav>
 		<div align="center">
 			<a  href="https://www.codewars.com/users/TheMrChaptastic"><image src="https://www.codewars.com/users/TheMrChaptastic/badges/large" title="CodeWars" class="codewars"></image></a>
 		</div>
 		<hr/>
 
-		<article>
+		<article id="about">
 			<section class="aside-left">
 				<aside>
 					<h3>About Me: </h3>
@@ -57,22 +61,22 @@
 		</article>
 		
 		<article>
-			<div align = "center">
+			<div align="center">
 				<!-- Linebreak with line --> <!-- br/ = linebreak --> <!-- ol = Numbered List --> <!-- ul = Bulleted List -->
 				<h2><br><hr/>Projects: </h2>
-				<a href="https://chappyswvwtracking.azurewebsites.net/"><img class="gif" src="gifs/WvWProjGif.gif"><br />
+				<a id="projects" href="https://chappyswvwtracking.azurewebsites.net/"><img class="gif" src="gifs/WvWProjGif.gif"><br />
 				<b>Guild Wars 2 WvW Tracker</b></a> 
-				<p>Project using ASP.NET and Guild Wars 2 API Hosted on Azure.</p>
+				<p>Project using ASP.NET MVC and Guild Wars 2 API Hosted on Azure.</p>
 				<p>Tracks Current WvW Server Matchups and shows match specific stats and calculates recent territory changes from each of the 4 maps for each team.</p>
 
 				<a href="https://elofinalproject.azurewebsites.net"><img class="gif" src="gifs/EloProjGif.gif"><br />
 				<b>ASP.NET Elo Tracking</b></a> 
-				<p>Project using ASP.NET and mySQL Hosted on Azure.</p>
+				<p>Project using ASP.NET MVC and mySQL Hosted on Azure.</p>
 				<p>Tracks Players Match Making Rating and Updates them based on Elo System Calculations.</p>
 
 				<a href="https://chappyweather.azurewebsites.net/"><img class="gif" src="gifs/WeatherProjGif.gif"><br />
 				<b>Weather Forecast</b></a> 
-				<p>Project using ASP.NET and OpenWeatherMap API Hosted on Azure.</p>
+				<p>Project using ASP.NET MVC and OpenWeatherMap API Hosted on Azure.</p>
 				<p>Accepts US zip code and shows weather information and Google Map based on input.</p>
 
 				<a href="https://github.com/TheMrChaptastic/FightArenaConsoleGame"><img class="gif" src="gifs/ArenaProjGif.gif"><br />
@@ -86,24 +90,27 @@
 				<a href="https://github.com/TheMrChaptastic/ConsoleConnect4"><img class="gif" src="gifs/Connect4ProjGif.gif"><br />
 				<b>Console Connect 4</b></a>
 				<p>Classic Text-Based Connect 4 played in Console</p>
+
+				<a href="https://github.com/TheMrChaptastic"><image src="images/github.png" title="GitHub" class="img-buttons"></image></a>
+				<p>More projects on Github!</p>
 			</div>
 
-			<div align = "center">
+			<div align="center" id="demos">
 				<hr/> <!-- Linebreak with line --> <!-- br/ = linebreak --> <!-- ol = Numbered List --> <!-- ul = Bulleted List -->
 				<h2>Project Demonstration and Code Videos: </h2>
 				<a href="https://drive.google.com/drive/folders/1WdOWSndrW9tq-OGXktnL2KML00DouWWg?usp=sharing">
 					<image src="images/gdrive.png" title="Google Drive" width="150" height="150"></image></image>
 				</a>
-				<!-- a href="https://elofinalproject.azurewebsites.net"><h4>ASP.NET Elo Tracking</h4></a--> 
-				<!--a href="https://github.com/TheMrChaptastic/FightArenaConsoleGame"><h4>Fight Arena Console Game</h4></a--> 
-				<!--a href="https://github.com/TheMrChaptastic/ConsolePasswordManager"><h4>Console Password Manager</h4></a-->
-				<!--a href="https://github.com/TheMrChaptastic/ConsoleConnect4"><h4>Console Connect 4</h4></a-->
 			</div>
 		</article>
 
 		<footer align = "center">
 			<hr width = 30% />
-			<p>Thanks for visiting!</p>
+			<nav align="center" id="contact"><strong>
+				<a href = "mailto: chappybunn@outlook.com"><image src="images/email.png" title="Email" class="img-buttons"></image></a>
+				<a href="https://www.linkedin.com/in/ccbunn/"><image src="images/linkedin.png" title="LinkedIn" class="img-buttons"></image></a>
+			</strong></nav>
+			<p>Thanks for visiting! Feel free to reach out to me!</p>
 		</footer>
 
 	</body>
